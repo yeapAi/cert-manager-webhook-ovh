@@ -7,6 +7,27 @@ This is a webhook solver for [OVH](http://www.ovh.com).
 * [cert-manager](https://github.com/jetstack/cert-manager) version 0.11.0 or higher (*tested with 0.12.0*):
   - [Installing on Kubernetes](https://cert-manager.io/docs/installation/kubernetes/#installing-with-helm)
 
+## Helm release
+
+In the branch gh-pages which is used by github for github pages create an empty file index.yaml
+
+Generate the release with the command:
+
+```ssh
+cd deploy
+helm package cert-manager-webhook-ovh
+```
+
+Move the tgz file at the root of the repository
+
+Update index file with
+
+```ssh
+helm repo index . --url https://yeapai.github.io/cert-manager-webhook-ovh/
+```
+
+Commit all change in gh-pages branch.
+
 ## Installation
 
 Choose a unique group name to identify your company or organization (for example `acme.mycompany.example`).

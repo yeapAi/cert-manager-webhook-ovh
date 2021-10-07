@@ -3,11 +3,11 @@ entries:
   cert-manager-webhook-ovh:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2021-10-06T15:22:54.853482579+02:00"
+    created: "2021-10-07T09:46:19.818228854+02:00"
     description: OVH DNS cert-manager ACME webhook
-    digest: 44c8cdc296899748b05cc4501635ad7e0221eb23c0e6be9fd69b3832d88d96b2
+    digest: 7a8d3df39db3c732c06bd0b1dcc171892ee5d61cc331461d5edfcf3a22be7754
     name: cert-manager-webhook-ovh
     urls:
     - https://yeapai.github.io/cert-manager-webhook-ovh/cert-manager-webhook-ovh-0.2.0.tgz
     version: 0.2.0
-generated: "2021-10-06T15:22:54.85308818+02:00"
+generated: "2021-10-07T09:46:19.81779767+02:00"
